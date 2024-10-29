@@ -1,3 +1,3 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado o utilizó otros comandos que no se mencionan al realizar la práctica también se debe documentar.
+
+Antes de esta práctica, tenía un conocimiento básico sobre la persistencia de datos en Docker. Ahora comprendo cómo configurar y diferenciar los distintos tipos de volúmenes (nombrados, tipo host y anónimos) para que los datos persistan independientemente del ciclo de vida del contenedor. Esto es particularmente útil para asegurar que servicios como bases de datos y CMS retengan su información, aun si los contenedores se reinician o eliminan.
+Una forma muy útil para saber si la red esta correctamente configurada es usar el comando docker network inspect <nombre_red> para verificar la configuración de la red y asegurarme de que los contenedores estaban correctamente conectados.
